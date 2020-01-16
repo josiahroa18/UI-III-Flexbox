@@ -217,13 +217,8 @@ header img{
 	justify-content: space-between;
 }
 
-.footer-content, .img-container{
+.footer-content, .footer-container img{
 	width: 47%;
-}
-
-.img-container{
-	overflow: hidden;
-	/* width: 420px; */
 }
 
 ul{
@@ -238,8 +233,35 @@ li{
 /* End of styles for service page */
 
 /* Media Querie for max-width: 600px*/
-@media only screen and  (max-width:600px){
+@media only screen and  (max-width:800px){
 	nav{
 		flex-direction: column-reverse;
+	}
+
+	nav a{
+		padding: 10px 0;
+	}
+
+	.services-header-img{
+		display: none
+	}
+
+	.horizontal-container{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.info-container{
+		width: 100%;
+	}
+
+	.footer-container{
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+	.footer-content, .img-container{
+		margin: 10px 0;
+		width: 100%;
 	}
 }

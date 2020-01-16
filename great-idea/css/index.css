@@ -115,3 +115,50 @@ nav a:hover{
 	flex: 1;
 }
 
+/* Body Content Styles */
+.top-section{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.content-top{
+	max-width: 49%;
+}
+
+section img{
+	width: 100%;
+}
+
+.bottom-section{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.content-bottom{
+	max-width: 32%;
+}
+
+/* Footer Styles */
+footer{
+	margin: 30px 0;
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact a{
+	margin: 10px 0;
+	text-decoration: none;
+	color: black;
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+}
+

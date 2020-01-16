@@ -218,14 +218,28 @@ header img{
 }
 
 .footer-content, .img-container{
-	width: 45%;
+	width: 47%;
 }
 
 .img-container{
-	width: 300px;
+	overflow: hidden;
+	/* width: 420px; */
 }
 
+ul{
+	list-style-type: square;
+	padding: 20px;
+}
 
-
+li{
+	margin: 10px 0;
+}
 
 /* End of styles for service page */
+
+/* Media Querie for max-width: 600px*/
+@media only screen and  (max-width:600px){
+	nav{
+		flex-direction: column-reverse;
+	}
+}
